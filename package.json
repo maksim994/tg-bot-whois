@@ -1,0 +1,30 @@
+{
+  "name": "tgboot",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon /src/main.js",
+    "start": "node ./src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "axios": "^1.3.6",
+    "config": "^3.3.9",
+    "fluent-ffmpeg": "^2.1.2",
+    "node-dig-dns": "^0.3.3",
+    "punycode": "^2.3.0",
+    "ssl-date-checker": "^2.0.6",
+    "telegraf": "^4.12.2",
+    "whois": "^2.14.0",
+    "whois-parsed": "^1.0.14",
+    "whoiser": "^1.17.1"
+  }
+}

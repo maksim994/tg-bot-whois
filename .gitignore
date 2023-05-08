@@ -1,0 +1,8 @@
+.idea
+node_modules
+config/default.json
+src/test.js
+
+.vscode
+.DS_Store
+.profile
